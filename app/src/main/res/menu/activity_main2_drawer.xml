@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_descripcion"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Descripcion" />
+        <item
+            android:id="@+id/nav_ventajas"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Ventajas" />
+        <item
+            android:id="@+id/nav_actividad"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Actividad" />
+        <item
+            android:id="@+id/nav_exper"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Experiencia UTP" />
+
+        <item
+                android:id="@+id/nav_ejemplos"
+                android:icon="@android:drawable/btn_star_big_on"
+                android:title="Ejemplos de Exito" />
+        <item
+                android:id="@+id/nav_creditos"
+                android:icon="@android:drawable/btn_star_big_on"
+                android:title="Creditos" />
+
+    </group>
+
+</menu>

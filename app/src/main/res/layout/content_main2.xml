@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main2Activity"
+    android:id="@+id/content_main2"
+    tools:showIn="@layout/app_bar_main2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgPrincipal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/novedadb" />
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:id="@+id/txtPrincipal"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
